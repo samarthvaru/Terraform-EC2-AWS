@@ -64,5 +64,6 @@ The CI/CD pipeline is configured with AWS CodePipeline, and it includes the foll
 
  - Approve the destroy stage to deprovision the resources.
 
-!()
+![image](pipeline1.png)
+![image2](pipeline2.png)
 
