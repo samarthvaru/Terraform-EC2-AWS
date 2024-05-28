@@ -60,6 +60,10 @@ The CI/CD pipeline is configured with AWS CodePipeline, and it includes the foll
 3. **Trigger the Pipeline**
    - Make a commit to the CodeCommit repository to trigger the pipeline. Monitor the pipeline in the AWS Management Console to ensure successful execution.
 
+4. **After the infrastructure is created, Terraform will output the public IP of the EC2 instance. Access the portfolio website using this IP:**
+    - `http://<ec2-public-ip>`
+
+
 ## CleanUp
 
  - Approve the destroy stage to deprovision the resources.
