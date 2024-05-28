@@ -50,7 +50,7 @@ The CI/CD pipeline is configured with AWS CodePipeline, and it includes the foll
 ## CI/CD Pipeline Setup
 
 1. **Create S3 Bucket for Terraform State**
-   - aws s3api create-bucket --bucket <bucket-name> --region us-east-1
+   - `aws s3api create-bucket --bucket <bucket-name> --region us-east-1`
 2. **Setup CodePipeline**
    - Create a new pipeline in AWS CodePipeline.
    - Add the CodeCommit repository as the source.
